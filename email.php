@@ -1,3 +1,3 @@
 <?php 
-$mailto = "idhaaminfo19@gmail.com";
+$mailto = "akun.pubgm087@gmail.com";
 ?>
